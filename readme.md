@@ -2,6 +2,7 @@
 
 ![alt text](<chuck jokes UI.png>)
 
+https://chuckjokesgeneratorbis.netlify.app/
 In this vanilla JS app, we use **AJAX XMLHttpRequest** objects,
 to interract with https://api.chucknorris.io/jokes/random/ server,
 **fetch** a random joke, using **GET method**, check the **readyState===4** property and **status===200** code of the response, **parse** the reponse and **dynamically append** it to the DOM. The app provides an option to generate jokes automatically at your conveninent speed by clicking Auto Jokes button; You will be prompted to enter a numerical value **t**, passed into **setInterval** function to fetch and display a new joke every **t seconds**.
